@@ -1,0 +1,259 @@
+body {
+	margin: 0;
+}
+
+#app {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #2c3e50;
+}
+
+.navBar {
+	width: 140px;
+	height: 100vh;
+	overflow-y: auto;
+	background: #545c64;
+	position: fixed;
+	left: 0;
+	top: 60px;
+}
+
+.logout {
+	width: 150px;
+	float: right;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background: #545c64;
+	float: left;
+	color: #ffffff;
+	line-height: 60px;
+	font-size: 20px;
+}
+
+.header .tilebav {
+	float: left;
+	margin-left: 10px;
+}
+
+.header .logout {
+	float: right;
+}
+
+.content {
+	width: calc(100vw - 140px);
+	height: calc(100vh - 60px);
+	overflow: auto;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-left: 140px;
+}
+
+.navTitle {
+	color: #ffffff;
+	font-size: 18px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.loginbg {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('/static/images/bg.jpg');
+	background-size: 100% 100%;
+}
+
+.loginForm {
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -220px;
+	background: rgba(0, 0, 0, .5);
+	padding: 50px 60px;
+	box-sizing: border-box;
+}
+
+.loginTitle {
+	height: 60px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.labelel {
+	background: #fff;
+}
+
+.inputel {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.filter-container {
+	height: 40px;
+}
+
+.buttonlogin {
+	text-align: center;
+	margin-top: 56px;
+
+}
+
+.buttonlogin>.el-form-item__content {
+	margin-left: 0 !important;
+}
+
+.avatar-uploader .el-upload {
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+	border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+	font-size: 28px;
+	color: #8c939d;
+	width: 178px;
+	height: 178px;
+	line-height: 178px;
+	text-align: center;
+}
+
+.avatar {
+	width: 178px;
+	height: 178px;
+	display: block;
+}
+
+.el-pagination {
+	text-align: center;
+}
+
+.el-menu {
+	border: 0 !important
+}
+
+.el-form-item {
+	margin-bottom: 22px;
+	width: 380px;
+}
+
+.el-dialog__header {
+	padding: 0 !important;
+}
+
+.el-submenu__title {
+	padding: 0 !important
+}
+
+.el-col-11 {
+	width: 100% !important;
+}
+
+.el-input {
+	position: relative;
+	font-size: 14px;
+	display: inline-block;
+	width: 227px !important;
+}
+
+.inlineShow {
+	margin-left: -5px;
+	margin-right: 20px;
+}
+
+.inlineShow .el-input {
+	position: relative;
+	font-size: 14px;
+	display: inline-block;
+	width: 120px !important;
+}
+
+.el-pagination .el-input {
+	position: relative;
+	font-size: 14px;
+	display: inline-block;
+	width: 100px !important;
+}
+
+.el-pagination__editor.el-input {
+	width: 50px !important;
+}
+
+/* 导出按钮 */
+.toexcel {
+	cursor: pointer;
+	cursor: hand;
+	width: 70px;
+	height: 34px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.mtltwo {
+	margin-left: 20px;
+}
+
+.patwo {
+	margin-bottom: 10px;
+}
+
+hr {
+	background-color: #ebeef5;
+	height: 1px;
+	border: none;
+}
+
+
+.gusui .el-form-item {
+	width: 800px;
+}
+
+.bingfazheng .el-form-item {
+	width: 800px;
+}
+
+.submitBtn {
+	width: 900px;
+	text-align: center;
+}
+
+.fuheInput {
+	display: inline-block;
+	height: 39px;
+	background-color: #f5f7fa;
+	color: #909399;
+	vertical-align: middle;
+	line-height: 39px;
+	padding: 0 20px;
+	border: 1px solid #dcdfe6;
+	border-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-radius: 4px;
+	margin-top: -2px;
+}
